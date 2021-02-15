@@ -42,9 +42,9 @@ class Car {
 
 // Creo delle istanze e le popolo
 $cars = [
-  'mx5' => new Car('mazda', 'mx5', 'S(roadster)', 2015, 2018, 'red', 1.5, 'petrol', 6, 18000, 0, 'japan'),
-  'fiesta' => new Car('ford', 'fiesta', 'B(supermini)', 2008, 2013, 'blue', 1.0, 'petrol', 5, 11000, 26000, 'usa'),
-  'giulia' => new Car('alfa romeo', 'giulia', 'D(compact executive)', 2015, 2019, 'black', 2.2, 'diesel', 6, 26000, 4000, 'italy'),
+  'mx5' => new Car('mazda', 'mx5', 'S (roadster)', 2015, 2018, 'red', 1.5, 'petrol', 6, 18000, 0, 'japan'),
+  'fiesta' => new Car('ford', 'fiesta', 'B (supermini)', 2008, 2013, 'blue', 1.0, 'petrol', 5, 11000, 26000, 'usa'),
+  'giulia' => new Car('alfa romeo', 'giulia', 'D (compact executive)', 2015, 2019, 'black', 2.2, 'diesel', 6, 26000, 4000, 'italy'),
   'levante' => new Car('maserati', 'levante', 'Mid-size SUV', 2016, 2020, 'white', 3.8, 'petrol', 6, 45000, 52000, 'usa')
 ];
 
