@@ -42,10 +42,10 @@ class Car {
 
 // Creo delle istanze e le popolo
 $cars = [
-  'mx5' => new Fruit('mazda', 'mx5', 'S(roadster)', 2015, 2018, 'red', 1.5, 'petrol', 6, 18000, 0, 'japan'),
-  'fiesta' => new Fruit('ford', 'fiesta', 'B(supermini)', 2008, 2013, 'blue', 1.0, 'petrol', 5, 11000, 26000, 'usa' )
+  'mx5' => new Car('mazda', 'mx5', 'S(roadster)', 2015, 2018, 'red', 1.5, 'petrol', 6, 18000, 0, 'japan'),
+  'fiesta' => new Car('ford', 'fiesta', 'B(supermini)', 2008, 2013, 'blue', 1.0, 'petrol', 5, 11000, 26000, 'usa' )
 ];
 
-var_dump($cars);
+
 
 ?>
